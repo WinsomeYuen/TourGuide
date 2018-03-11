@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">London Guide</string>
+    <string name="tab_text_1">Museums</string>
+    <string name="tab_text_2">Activities</string>
+    <string name="tab_text_3">Food</string>
+    <string name="tab_text_4">Events</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="header">
+        <item>@string/tab_text_1</item>
+        <item>@string/tab_text_2</item>
+        <item>@string/tab_text_3</item>
+        <item>@string/tab_text_4</item>
+    </string-array>
+</resources>

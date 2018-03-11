@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C5B0A7</color>
+    <color name="colorPrimaryDark">#A19F9E</color>
+    <color name="colorAccent">#A19F9E</color>
+    <color name="colorMuseum">#FAD8C2</color>
+    <color name="colorFood">#D6E4EC</color>
+    <color name="colorActivities">#FFD5E6</color>
+    <color name="colorEvent">#CAD9BF</color>
+</resources>
