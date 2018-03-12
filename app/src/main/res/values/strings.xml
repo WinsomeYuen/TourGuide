@@ -12,4 +12,128 @@
         <item>@string/tab_text_3</item>
         <item>@string/tab_text_4</item>
     </string-array>
+
+    <string-array name="title_museum">
+        <item>British Museum</item>
+        <item>V&amp;A</item>
+        <item>Science Museum</item>
+        <item>Fashion&amp;Textile</item>
+        <item>Tate Modern</item>
+        <item>National Gallery</item>
+        <item>Design Museum</item>
+    </string-array>
+
+    <string-array name="location_museum">
+        <item>Bloomsbury</item>
+        <item>Knightsbridge</item>
+        <item>Knightsbridge</item>
+        <item>Bermondsey</item>
+        <item>Bank Side</item>
+        <item>Trafalgar Square</item>
+        <item>Kensington</item>
+    </string-array>
+
+    <string-array name="description_museum">
+        <item>A public institution dedicated to human history, art and culture.</item>
+        <item>Contains the world's largest museum of decorative arts and design, housing a permanent collection of over 4.5 million objects.</item>
+        <item>There are over 15,000 objects on display, including world-famous objects such as the Apollo 10 command capsule and Stephenson’s Rocket.</item>
+        <item>The only museum in the UK solely dedicated to showcasing developments in contemporary fashion, as well as providing inspiration, support and training for those working in the industry.</item>
+        <item>Tate is an institution that houses the United Kingdom's national collection of British art, and international modern and contemporary art.</item>
+        <item>You can explore inspiring art by Botticelli, Leonardo da Vinci, Rembrandt, Gainsborough, Turner, Renoir and Van Gogh.</item>
+        <item>Covers product, industrial, graphic, fashion and architectural design.</item>
+    </string-array>
+
+    <string-array name="title_activities">
+        <item>Kensington Palace</item>
+        <item>London Dungeon</item>
+        <item>London Zoo</item>
+        <item>Warner Bros. Studio</item>
+        <item>SEA LIFE Aquarium</item>
+        <item>London Eye</item>
+        <item>Buckingham Palace</item>
+        <item>Westminster Abbey</item>
+        <item>Kew Gardens</item>
+    </string-array>
+
+    <string-array name="location_activities">
+        <item>Kensington</item>
+        <item>SouthBank</item>
+        <item>Regent Park</item>
+        <item>Abbots Langley</item>
+        <item>South Bank</item>
+        <item>South Bank</item>
+        <item>St James Park</item>
+        <item>Westminster</item>
+        <item>Kew</item>
+    </string-array>
+
+    <string-array name="description_activities">
+        <item>Spend a few hours hanging out at the fashionable W8 residence of royals from William III to William and Kate.</item>
+        <item>Tales of murder, torture and other foul deeds are brought to life on a tour of London’s horrible past in scary but seriously funny style.</item>
+        <item>Zone 1 is where the wild things are, at our world-leading zoo in the park.</item>
+        <item>Visit the studios where all eight Harry Potter movies were made, walk down Diagon Alley, drink butterbeer and step into Hogwarts.</item>
+        <item>Walk through, over and under colourful aquatic worlds from the tropical to the Arctic at one of London’s busiest attractions.</item>
+        <item>A sightseeing icon that’s as beautiful to look at as it is to look out from.</item>
+        <item>A chance to see world famous art, glimpse regal opulence and get inside HRH’s HQ.</item>
+        <item>Gothic grandeur at its most splendid. See where 16 royal weddings, a lot of funerals and every coronation since 1066 have taken place.</item>
+        <item>Exotic flowers, wild meadows and a walk among the treetops in leafy west London.</item>
+    </string-array>
+
+    <string-array name="title_event">
+        <item>Shakespeare Plays</item>
+        <item>Silent Disco</item>
+        <item>MCM Comic Con</item>
+        <item>Garden of Light</item>
+        <item>Peckham Salvage Yard</item>
+        <item>Rooftop Astronomy</item>
+    </string-array>
+
+    <string-array name="location_event">
+        <item>Shakespeares Globe</item>
+        <item>The Shard</item>
+        <item>Excel</item>
+        <item>Paternoster Square, St Pauls</item>
+        <item>Copeland Gallery, Peckham</item>
+        <item>Culpeper, Whitechapel</item>
+    </string-array>
+
+    <string-array name="description_event">
+        <item>Each season (spring to early autumn) includes several Shakespeare classics, performed by a company of established and upcoming actors, while works of other writers are also programmed.</item>
+        <item>Pick your channel and choose your side as three DJs battle it out over separate wireless channels, playing the best in pop, rock and party classics, while you dance the night away at 1,000ft.</item>
+        <item>The MCM London Comic Con is a speculative fiction fan convention held in the London Borough of Newham twice yearly, usually on the last weekend in May and October.</item>
+        <item>Paternoster Square is turning yellow again as 4,000 illuminated daffodils pop-up in the space to mark the Great Daffodil Appeal 2018. Each handcrafted flower will represent the people the terminal illness charity will support throughout the month of March. </item>
+        <item>Get your busy hands on vintage threads, twee ceramics, atomic era electricals and antique luggage at this south London fair from the good people behind Hackney Flea Market.</item>
+        <item>Controversial astrologist Nicholas Culpeper gave lovely Spitalfields gastropub The Culpeper its name, and these rooftop stargazing sessions are in his honour.</item>
+    </string-array>
+
+    <string-array name="title_food">
+        <item>Masala Zone</item>
+        <item>Hook</item>
+        <item>Inamo</item>
+        <item>Sketch</item>
+        <item>Bao</item>
+        <item>Miki Paradise</item>
+        <item>Burger&amp;Lobster</item>
+    </string-array>
+
+    <string-array name="location_food">
+        <item>Soho, Camden, Cov Garden</item>
+        <item>Camden</item>
+        <item>Soho, Camden, Cov Garden</item>
+        <item>Mayfair</item>
+        <item>Fitzrovia, Soho</item>
+        <item>Highbury</item>
+        <item>Soho</item>
+    </string-array>
+
+    <string-array name="description_food">
+        <item>Delicious genuine Indian food, newly renovated exciting interiors and great staff.</item>
+        <item>Fabulous fish and chips in Camden, flawlessly fried and with superior condiments. Only fish that is sustainably caught gets hooked by Hook.</item>
+        <item>They’ve got some very cool interactive tabletops and you place your order on an iPad. And the food? Well, that’s much more traditional – a sumptuous selection of pan-Asian classics such as salt and pepper squid, beef tataki and Korean chicken wings alongside delicious sushi including red dragon roll, salmon sashimi and crispy vegetable tempura maki.</item>
+        <item>Quirky, 18th-century townhouse tea room that transforms into a cocktail lounge every evening.</item>
+        <item>Serves BAOs, steamed buns, and a range of Taiwanese Dishes.</item>
+        <item>A little shop offering smoothies, juices, crepes, coffee and food to the people of London. Also renowned across London for some of the best freakshakes in the city, made fresh every day.</item>
+        <item>To make a great burger you have to start with great beef. Our Angus beef is 'Best in Class' from Nebraska. Our beef, which is three parts of the bull blended, is full of flavour.The Journey of our lobsters starts in Nova Scotia, where the waters are deep and the lobsters are flavourful.</item>
+    </string-array>
+
 </resources>

@@ -17,17 +17,20 @@ public class ActivitiesFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.attraction_list, container, false);
+        String title[] = getActivity().getResources().getStringArray(R.array.title_activities);
+        String location[] = getActivity().getResources().getStringArray(R.array.location_activities);
+        String description[] = getActivity().getResources().getStringArray(R.array.description_activities);
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("Kensington Palace", "Kensington",R.mipmap.palace_activities,"Spend a few hours hanging out at the fashionable W8 residence of royals from William III to William and Kate."));
-        attractions.add(new Attraction("London Dungeon", "Southbank",R.mipmap.dungeon_activities,"Tales of murder, torture and other foul deeds are brought to life on a tour of London’s horrible past in scary but seriously funny style."));
-        attractions.add(new Attraction("London Zoo", "Regent Park",R.mipmap.zoo_activities,"Zone 1 is where the wild things are, at our world-leading zoo in the park."));
-        attractions.add(new Attraction("Warner Bros. Studio", "Abbots Langley",R.mipmap.warnerbros_activities,"Visit the studios where all eight Harry Potter movies were made, walk down Diagon Alley, drink butterbeer and step into Hogwarts."));
-        attractions.add(new Attraction("SEA LIFE Aquarium", "South Bank",R.mipmap.aquarium_activities,"Walk through, over and under colourful aquatic worlds from the tropical to the Arctic at one of London’s busiest attractions."));
-        attractions.add(new Attraction("London Eye", "South Bank",R.mipmap.londoneye_activities,"A sightseeing icon that’s as beautiful to look at as it is to look out from."));
-        attractions.add(new Attraction("Buckingham Palace", "St James Park",R.mipmap.palace_activities,"A chance to see world famous art, glimpse regal opulence and get inside HRH’s HQ."));
-        attractions.add(new Attraction("Westminster Abbey", "Westminster",R.mipmap.abbey_activities,"Gothic grandeur at its most splendid. See where 16 royal weddings, a lot of funerals and every coronation since 1066 have taken place."));
-        attractions.add(new Attraction("Kew Gardens", "Kew",R.mipmap.kew_activities,"Exotic flowers, wild meadows and a walk among the treetops in leafy west London."));
+        attractions.add(new Attraction(title[0], location[0],R.drawable.palace_activities, description[0]));
+        attractions.add(new Attraction(title[1], location[1],R.drawable.dungeon_activities, description[1]));
+        attractions.add(new Attraction(title[2], location[2],R.drawable.zoo_activities, description[2]));
+        attractions.add(new Attraction(title[3], location[3],R.drawable.warnerbros_activities, description[3]));
+        attractions.add(new Attraction(title[4], location[4],R.drawable.aquarium_activities, description[4]));
+        attractions.add(new Attraction(title[5], location[5],R.drawable.londoneye_activities, description[5]));
+        attractions.add(new Attraction(title[6], location[6],R.drawable.palace_activities, description[6]));
+        attractions.add(new Attraction(title[7], location[7],R.drawable.abbey_activities, description[7]));
+        attractions.add(new Attraction(title[8], location[8],R.drawable.kew_activities, description[8]));
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions, R.color.colorActivities);
         ListView listView = rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
